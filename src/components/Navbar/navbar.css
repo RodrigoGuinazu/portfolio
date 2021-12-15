@@ -1,4 +1,20 @@
 .navbar{
     height: 15vh;
-    background-color: #333;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar .menus a{
+    color: white;
+    padding-right: 10px;
+    text-decoration: none;
+}
+
+.navbar .menus a:hover{
+    border-bottom: 3px solid white;
+}
+
+.navbar .icons{
+    color: white;
 }
