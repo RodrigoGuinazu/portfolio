@@ -1,13 +1,13 @@
 import React from 'react'
 import './navbar.css'
 import Menus from './Menus'
-import Icons from './Icons'
+import Contact from './Contact'
 
 export default function index() {
     return (
         <nav className='navbar'>
             <Menus />
-            <Icons />
+            <Contact />
         </nav>
     )
 }

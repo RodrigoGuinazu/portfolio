@@ -1,4 +1,16 @@
-.App {
-  background-color: #333;
-  height: 15vh;
+body {
+  font-family: sans-serif;
+  background-color: black;
+  color: whitesmoke;
+  font-size: 18px;
+}
+
+html {
+  overflow: scroll;
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
 }

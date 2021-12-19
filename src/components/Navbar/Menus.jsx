@@ -3,10 +3,10 @@ import React from 'react'
 export default function Menus() {
     return (
         <div className='menus'>
-            <a href="/">About Me</a>
-            <a href="/">Study</a>
-            <a href="/">Languages</a>
-            <a href="/">Portfolio</a>
+            <a href="#about-id">About</a>
+            <a href="#experience-id">Experience</a>
+            <a href="#skills-id" >Skills</a>
+            <a href="#projects-id">Projects</a>
         </div>
     )
 }

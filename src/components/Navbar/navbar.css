@@ -1,20 +1,35 @@
 .navbar{
-    height: 15vh;
-    background-color: black;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 5vh;
+    background-color: rgba(7,7,7,.93);
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    border: 1px solid red;
+    position: sticky;
+    top: 0px;
 }
 
-.navbar .menus a{
-    color: white;
-    padding-right: 10px;
+.navbar .menus{
+    display: flex;
+    align-self: flex-end;
+}
+
+.navbar .contact{
+    display: flex;
+    align-self: flex-end;
+}
+
+.navbar a{
+    font-size: 18px;
+    color: whitesmoke;
+    font-weight: 400;
+    background-color: black;
+    border: none;
+    padding-right: 30px;
     text-decoration: none;
 }
 
-.navbar .menus a:hover{
-    border-bottom: 3px solid white;
-}
-
-.navbar .icons{
-    color: white;
+.navbar a:focus{
+    color: #f0860c;
 }
