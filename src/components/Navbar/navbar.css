@@ -1,10 +1,12 @@
-.navbar{
-    margin-left: 100px;
-    margin-right: 100px;
-    height: 5vh;
+.divNav{
     background-color: rgba(7,7,7,.93);
+}
+
+.navbar{
+    background-color: transparent;
     display: flex;
-    justify-content: space-between;
+    margin: 0px 100px;
+    justify-content: space-around;
     border: 1px solid red;
     position: sticky;
     top: 0px;
@@ -24,10 +26,13 @@
     font-size: 18px;
     color: whitesmoke;
     font-weight: 400;
-    background-color: black;
+    background-color: transparent;
     border: none;
     padding-right: 30px;
     text-decoration: none;
+    letter-spacing: .02em;
+    margin: 0px 42.1049px;
+    padding: 15px 40px 15px 0;
 }
 
 .navbar a:focus{

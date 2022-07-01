@@ -5,9 +5,11 @@ import Contact from './Contact'
 
 export default function index() {
     return (
-        <nav className='navbar'>
-            <Menus />
-            <Contact />
-        </nav>
+        <div className='divNav'>
+            <nav className='navbar'>
+                <Menus />
+                <Contact />
+            </nav>
+        </div>
     )
 }
